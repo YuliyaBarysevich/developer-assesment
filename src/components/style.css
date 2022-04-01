@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/**********************
+Header
+**********************/
+
+.intro {
+  width: 70% !important;
+  margin: 5rem auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+h1 {
+  margin-bottom: 1.4rem !important;
+  text-align: center;
+  font-size: 3rem !important;
+  font-weight: 700;
+}
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.3rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.container {
+  padding: 2rem 2rem !important;
+}
+
+/**********************
+Steps
+**********************/
+
+.steps {
+  margin-top: 4rem !important;
+  display: flex;
+  width: 60% !important;
+  margin: 0 auto;
+}
+
+.steps li {
+  list-style: none;
+  font-size: 1.3rem;
+  cursor: default;
+}
+
+.steps li:hover {
+  cursor: default;
+}
+
+.steps li:active {
+  cursor: default;
+}
+
+.step-round {
+  display: block;
+  width: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  background-color: #F0EFED;
+  transition: color 1.5s linear, background-color 1.5s linear;
+  -webkit-transition: color 1.5s linear, background-color 1.5s linear;
+  -moz-transition: color 1.5s linear, background-color 1.5s linear;
+}
+
+.divider {
+  flex-grow: 1;
+  border-bottom: 4px solid #F0EFED;
+  margin: 5px 0;
+  width: 25px;
+  height: 25px;
+  transition: border-bottom-color 1.5s linear;
+  -webkit-transition: border-bottom-color 1.5s linear;
+  -moz-transition: border-bottom-color 1.5s linear;
+}
+
+li[name="active"] {
+  background-color: #333 !important;
+  color: #fff;
+}
+
+.active-divider {
+  border-bottom-color: #333 !important;
+}
+
+/**********************
+Start container
+**********************/
+
+.start-button-container {
+  width: 70% !important;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.start-button-container h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.start-button-container .btn-group {
+  width: 35%;
+  margin: 2rem auto;
+}
+
+.start-button-container .btn-group .btn {
+  font-size: 1.3rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* .hide-start-button {
+  display: none;
+} */
+
+
+/**********************
+Form
+**********************/
+
+form {
+  width: 70%;
+  margin: 0 auto 5rem auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+form h2 {
+  width: fit-content !important;
+  margin: 0 auto;
+  padding: 0px 25px 10px 25px;
+  font-size: 2.2rem;
+  font-family: "Nanum Myeongjo";
+  border-bottom: 2px solid black;
+}
+
+form .row {
+  margin-bottom: 2rem;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+
+.question {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 6px;
+  border-radius: 15px 15px 0px 15px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 1.2rem;
+  background-color: #333;
+  color: #f2f2f2;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.example {
+  display: block;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/**********************
+Buttons
+**********************/
+
+.button-group {
+  margin-top: 3rem !important;
+}
+
+.step-one .btn-group {
+  justify-content: flex-end;
+}
+
+.step-two .btn-group, .step-three .btn-group {
+  justify-content: space-between;
+}
+
+.step-one .btn-group button, .step-two .btn-group button, .step-three .btn-group button {
+  width: 25% !important;
+  flex: 0 0 auto !important;
+  padding: 0.6rem 0;
+  border-radius: 0.25rem !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-size: 1.3rem;
+}
+
+/*****************
+Modal window 
+*****************/
+
+.modal-content{
+  width: 70%;
+  margin: 0 auto !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px;
+}
+
+.modal-title {
+  font-size: 3.1rem !important;
+  font-family: "Playfair Display";
+  font-weight: 700 !important;
+  margin-bottom: 1.75rem !important;
+}
+
+.modal-title, .modal-body p{
+  text-align: center !important;
+}
+.modal-body p{
+  font-size: 1.5rem !important;
+  font-family: "Playfair Display";
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  line-height: 2rem;
+  font-weight: 500 !important;
+
+}
+
+.btn-close {
+  font-size: 1.5rem !important;
+  width: 3.5rem !important;
+  height: 3.5rem !important;
+  font-weight: 700 !important;
+}
+
+
+.fade-out {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+}
+
+
