@@ -34,7 +34,6 @@ const CssStep = (props) => {
       <Container className={load ? "fade-in step-one" : "fade-out"}>
         <Row>
           <h2>CSS Questions</h2>
-          <p>{props.cssSeconds} seconds</p>
         </Row>
         <Row>
           <Form.Group>

@@ -41,7 +41,6 @@ const LanguageStep = (props) => {
       <Container className={load ? "fade-in step-two" : "fade-out"}>
         <Row>
           <h2>Programming Questions</h2>
-          <p>{props.languageSeconds} seconds</p>
         </Row>
         <Row>
           <Form.Group>

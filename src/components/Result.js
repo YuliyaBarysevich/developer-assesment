@@ -9,7 +9,7 @@ const Result = () => {
 
   const [list, setList] = useState([]);
   const [currentStep, setCurrentStep] = useState(0);
-  const [showSuccess, setShowSuccess] = useState(true)
+  const [showSuccess, setShowSuccess] = useState(false)
   const [isLoading, setLoading] = useState(false);
   const [handleSubmit, handleChange, values, setValues] = useForm(submitForm)
   const [getData, addNewData] = useAxios(list)

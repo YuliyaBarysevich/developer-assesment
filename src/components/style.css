@@ -252,3 +252,38 @@ Modal window
 }
 
 
+.closed-hint {
+  display: none;
+}
+
+.opened-hint img {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.opened-hint span {
+  display: block;
+  width: fit-content;
+  padding: 10px;
+  font-weight: 600;
+}
+
+span.bold {
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: #cabeb0;
+}
+
+.button-hint {
+  margin-bottom: 10px;
+  display: block;
+  background: transparent;
+  border: none;
+  font-style: italic;
+  font-weight: 700;
+  border-bottom: 2px solid black;
+}
+
+
+
+

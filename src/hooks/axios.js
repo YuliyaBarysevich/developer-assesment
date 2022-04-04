@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const useAxios = (list) => {
-  const careerAPI = '/api/career';
+  const careerAPI = '/services/assessmentform';
 
   const getData = async (callback) => {
     try{
